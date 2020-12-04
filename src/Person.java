@@ -32,4 +32,10 @@ public class Person {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public String getInfo() {
+        String info = "Imię: " + name + ", Nazwisko: " + lastName + ", Wypłata: " + salary;
+        return info;
+    }
 }
+

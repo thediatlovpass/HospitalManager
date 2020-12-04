@@ -13,4 +13,10 @@ public class Nurse extends Person{
     public void setOvertime(double overtime) {
         this.overtime = overtime;
     }
+
+    @Override
+    public String getInfo() {
+        String info = super.getInfo() + ", Nadgodziny: " + overtime;
+        return info;
+    }
 }
